@@ -1,0 +1,249 @@
+@media screen and (max-width:435px) {
+
+    /* body */
+    body {
+        background-color: #fcfcfc;
+        font-family: 'Helevetica Neue', 'Helvetica', 'Arial', 'Hiragino Kaku Gothic ProN', 'Meiryo', sans-serif;
+        letter-spacing: 1.25px;
+        -webkit-text-size-adjust: 100%;
+        margin: 0%;
+    }
+
+    /* section */
+    .background {
+        background: #f7faff;
+        margin: 0;
+        padding: 20px 20px;
+    }
+
+    section {
+        color: #023655;
+        background: #f7faff;
+    }
+
+    /* Title */
+    h1 {
+        font-size: 10.5vw;
+        color: #023655;
+        text-align: center;
+        margin: 0;
+    }
+
+    /* section-title */
+    h2 {
+        font-size: 45px;
+        text-align: center;
+    }
+
+    /* main-sentence */
+    p {
+        font-size: 25px;
+        text-align: center;
+        padding: 0px 30px;
+    }
+
+    /* main */
+    article {
+        margin: 0 auto;
+    }
+
+    /* URL Link */
+    a {
+        color: #2f3d69;
+        transition: color 0.3s;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: #99C9FF;
+    }
+
+    /* section-title2 */
+    h3 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .turn {
+        display: inline-block;
+    }
+
+    .sns {
+        text-align: center;
+    }
+
+    /* -------------------Settings------------------- */
+    .switch-pad {
+        padding: 25px 0px 0px;
+    }
+
+    .switcharea {
+        text-align: center;
+        border-bottom: solid 1.5px #3282b8;
+        padding: 0px 2%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .category-link {
+        display: inline-block;
+        padding: 0px 1vw;
+    }
+
+    .selected-mark {
+        border-bottom: solid 2.5px #023655;
+    }
+
+    .selected-color {
+        color: #023655;
+    }
+
+    .unselected-color {
+        color: #3282b8;
+    }
+
+    .button {
+        display: inline-block;
+        font-weight: 550;
+        font-size: 5vw;
+        margin: 0;
+        text-decoration: none;
+    }
+
+    .button:hover {
+        color: #023655;
+    }
+
+    .AllPostArea,
+    .InfoPostArea,
+    .YagiPostArea,
+    .YahhoPostArea {
+        display: none;
+    }
+
+    .active {
+        display: block;
+    }
+
+    .clear {
+        clear: both;
+    }
+
+    .Post-list-box {
+        padding: 0px 3vw;
+    }
+
+    .PostLink {
+        border-bottom: solid 1.0px #3282b8de;
+        background: #fbfdff;
+        padding: 10px;
+        position: relative;
+    }
+
+    .title {
+        margin: 0;
+        font-size: 5.5vw;
+        text-align: left;
+        color: #15405f;
+    }
+
+    .date {
+        font-size: 4.5vw;
+        color: #47687f;
+        margin: 0;
+        padding: 0px 30px 0px 0px;
+        text-align: left;
+    }
+
+    .tag {
+        display: inline-block;
+        font-size: 4.1vw;
+        font-weight: normal;
+        color: #fbfdff;
+        margin: 0;
+        padding: 0.1px 8px;
+        text-align: left;
+        background: #47687f;
+        border-radius: 5px;
+    }
+
+    .setaline {
+        display: flex;
+        align-items: center;
+        padding: 0px 0px 3px;
+    }
+
+    .preview {
+        margin: 0;
+        font-size: 5.2vw;
+        color: #335872;
+        text-align: left;
+        padding: 0px 0px 0px 15px;
+    }
+
+    .AccessPost {
+        display: block;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        height: 100%;
+        width: 100%;
+    }
+
+    /* -------------------TopFadeInAnimation------------------- */
+    .fadeintop {
+        opacity: 0;
+        animation-name: fadeInFlat;
+        animation-duration: 1.6s;
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes fadeInFlat {
+        0% {
+            opacity: 0;
+            transform: translateY(40px);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    /* -------------------ScrollFadeInAnimation------------------- */
+    .fadein {
+        opacity: 0;
+    }
+
+    .fadeInDown {
+        animation-name: fadeInDown;
+        animation-duration: 1.6s;
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes fadeInDown {
+        0% {
+            opacity: 0;
+            transform: translateY(40px);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    /* -------------------Settings2------------------- */
+    /* Share */
+    .SharePic {
+        max-width: 110px;
+        height: auto;
+    }
+
+    /* copyright */
+    .copyright {
+        font-size: 15px;
+        text-align: center;
+        background-color: #FFFFFF;
+    }
+}

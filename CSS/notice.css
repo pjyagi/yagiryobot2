@@ -1,0 +1,150 @@
+/* body */
+body {
+    background-color: #ffffff;
+    font-family: 'Helevetica Neue', 'Helvetica', 'Arial', 'Hiragino Kaku Gothic ProN', 'Meiryo', sans-serif;
+    letter-spacing: 1.25px;
+    -webkit-text-size-adjust: 100%;
+    margin: 0%;
+}
+
+/* section */
+section {
+    color: #1d1d1f;
+    background-color: #f6f6f6;
+    padding: 10px 0px;
+    margin: 20px;
+}
+
+/* section */
+ul {
+    display: list-item;
+    list-style: disc;
+}
+
+/* li */
+li {
+    padding: 40px 0px 40px;
+    font-size: 28px;
+    color: #1d1d1f;
+    font-weight: bold;
+}
+
+/* Title */
+h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 60px;
+    color: #1d1d1f;
+}
+
+/* section-title */
+h2 {
+    font-size: 45px;
+    text-align: center;
+    color: #1d1d1f;
+}
+
+/* section-title2 */
+h3 {
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+}
+
+/* main-sentence */
+p {
+    font-size: 25px;
+    padding: 0px 30px;
+    text-align: center;
+}
+
+/* main */
+article {
+    margin: 0 auto;
+}
+
+/* URL Link */
+a {
+    color: #2f3d69;
+    transition: color 0.3s;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #99C9FF;
+}
+
+.allpad {
+    padding: 10px 40px;
+}
+
+span {
+    display: inline-block;
+}
+
+/* -------------------TopFadeInAnimation------------------- */
+.fadeintop {
+    opacity: 0;
+    animation-name: fadeInFlat;
+    animation-duration: 1.6s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInFlat {
+    0% {
+        opacity: 0;
+        transform: translateY(25px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* -------------------ScrollFadeInAnimation------------------- */
+.fadein {
+    opacity: 0;
+}
+
+.fadeInDown {
+    animation-name: fadeInDown;
+    animation-duration: 1.6s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(25px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* -------------------Settings------------------- */
+/* padding */
+.pad2 {
+    padding: 10px 0px;
+    margin: 0;
+}
+
+.pad3 {
+    padding: 15px 0px 0px;
+    margin: 0;
+}
+
+.padp {
+    padding: 8px 25px 20px;
+    margin: 0;
+}
+
+/* copyright */
+.copyright {
+    font-size: 15px;
+    text-align: center;
+    background-color: #FFFFFF;
+}

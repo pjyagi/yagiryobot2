@@ -1,0 +1,286 @@
+/* body */
+body {
+    background-color: #fcfcfc;
+    font-family: 'Helevetica Neue', 'Helvetica', 'Arial', 'Hiragino Kaku Gothic ProN', 'Meiryo', sans-serif;
+    letter-spacing: 1.25px;
+    -webkit-text-size-adjust: 100%;
+    margin: 0%;
+}
+
+/* section */
+section {
+    color: #FFFF00;
+    background: #ff0000;
+}
+
+/* section */
+ul {
+    display: list-item;
+    list-style: none;
+    padding-left: 0px;
+    color: #f9f9fa;
+    background: #ffffff;
+}
+
+/* li */
+li {
+    padding: 40px 0px 40px;
+}
+
+.about {
+    background: #2f3d69;
+    display: flex;
+    align-items: flex-start;
+    text-align: center;
+}
+
+.picturemoji {
+    padding: 0px 30px;
+    align-self: center;
+}
+
+.policy {
+    background: #5ca0d3;
+    text-align: center;
+}
+
+.updates {
+    background: #00b7c2;
+    text-align: center;
+}
+
+.padp {
+    padding: 0px 30px 15px;
+}
+
+.paddiv {
+    padding: 0px 0px 40px;
+}
+
+.form {
+    background: #1684a7;
+    text-align: center;
+}
+
+.Blog {
+    text-align: center;
+    background: #0367a1;
+}
+
+.contact {
+    background: #ffffff;
+    color: #2e343d;
+}
+
+.sns {
+    text-align: center;
+}
+
+/* Title */
+h1 {
+    font-size: 60px;
+    color: #393C40;
+    text-align: center;
+}
+
+/* section-title */
+h2 {
+    font-size: 45px;
+    text-align: center;
+}
+
+/* main-sentence */
+p {
+    font-size: 25px;
+    text-align: center;
+    padding: 0px 30px;
+}
+
+/* main */
+article {
+    margin: 0 auto;
+}
+
+/* URL Link */
+a {
+    color: #2f3d69;
+    transition: color 0.3s;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #99C9FF;
+}
+
+/* section-title2 */
+h3 {
+    font-size: 25px;
+    text-align: center;
+}
+
+.turn {
+    display: inline-block;
+}
+
+/* -------------------TopFadeInAnimation------------------- */
+.fadeintop {
+    opacity: 0;
+    animation-name: fadeInFlat;
+    animation-duration: 1.6s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInFlat {
+    0% {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* -------------------ScrollFadeInAnimation------------------- */
+.fadein {
+    opacity: 0;
+}
+
+.fadeInDown {
+    animation-name: fadeInDown;
+    animation-duration: 1.6s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* -------------------Settings------------------- */
+.IntroPicture {
+    padding: 0px 0px 0px 50px;
+    width: 35%;
+}
+
+.Twitter {
+    display: inline-block;
+    padding: 14px 40px;
+    border-radius: 25px;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    border: solid 2px #2f3d69;
+    color: #2f3d69;
+    background: #ffffff;
+    transition: 0.3s;
+}
+
+.Twitter:hover {
+    border: solid 2px #ffffff;
+    color: #ffffff;
+    background: #2f3d69;
+}
+
+.pol2 {
+    display: inline-block;
+    padding: 15px 80px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #dd5144;
+    border-radius: 0;
+    border: solid 2px #5ca0d3;
+    background: #ffffff;
+    transition: 0.3s;
+}
+
+.pol2:hover {
+    border: solid 2px #ffffff;
+    color: #ffffff;
+    background: #5ca0d3;
+}
+
+.allver {
+    padding: 20px 80px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #00b7c2;
+    border-radius: 0;
+    border: solid 2px #00b7c2;
+    background: #ffffff;
+    transition: 0.3s;
+}
+
+.allver:hover {
+    border: solid 2px #ffffff;
+    color: #ffffff;
+    background: #00b7c2;
+}
+
+.fofo {
+    display: inline-block;
+    padding: 20px 60px;
+    border-radius: 25px;
+    border: solid 2px #1684a7;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #1684a7;
+    background: #ffffff;
+    transition: 0.3s;
+}
+
+.fofo:hover {
+    border: solid 2px #ffffff;
+    color: #ffffff;
+    background: #1684a7;
+}
+
+.readblog {
+    display: inline-block;
+    padding: 20px 60px;
+    border-radius: 25px;
+    border: solid 2px #0367a1;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #0367a1;
+    background: #ffffff;
+    transition: 0.3s;
+}
+
+.readblog:hover {
+    border: solid 2px #ffffff;
+    color: #ffffff;
+    background: #0367a1;
+}
+
+/* LogoPicture */
+.TwitterLogo {
+    padding: 6px 20px;
+}
+
+.MailIcon {
+    padding: 0px 20px 11px;
+}
+
+/* Share */
+.SharePic {
+    max-width: 110px;
+    height: auto;
+}
+
+/* copyright */
+.copyright {
+    font-size: 15px;
+    text-align: center;
+    background-color: #FFFFFF;
+}

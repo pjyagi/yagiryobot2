@@ -1,0 +1,220 @@
+@media screen and (max-width:650px) {
+
+    /* body */
+    body {
+        background-color: #fcfcfc;
+        font-family: 'Helevetica Neue', 'Helvetica', 'Arial', 'Hiragino Kaku Gothic ProN', 'Meiryo', sans-serif;
+        letter-spacing: 1.25px;
+        -webkit-text-size-adjust: 100%;
+        margin: 0%;
+    }
+
+    /* section */
+    section {
+        color: #FFFF00;
+        background: #ff0000;
+    }
+
+    /* section */
+    .version-box {
+        display: list-item;
+        list-style: none;
+        color: #000000;
+        background: #2f3d69;
+        margin: 0px 5%;
+    }
+
+    .version-pad {
+        padding: 0px 0px;
+        margin: 0;
+    }
+
+    .background {
+        margin: 0;
+        padding: 30px 0px;
+        background-color: #2f3d69;
+    }
+
+    /* Title */
+    h1 {
+        margin: 0;
+        font-size: 10vw;
+        color: #f5f5f7;
+        text-align: center;
+        padding: 0px 0px 30px;
+    }
+
+    /* Version-Name */
+    h2 {
+        font-size: 10vw;
+        text-align: center;
+        margin: 0;
+    }
+
+    /* Release-Date */
+    h3 {
+        font-size: 6vw;
+        text-align: center;
+        margin: 0;
+        padding: 15px 0px 10px;
+    }
+
+    /* Update-Detail */
+    p {
+        font-size: 5vw;
+        text-align: center;
+        margin: 0;
+        padding: 0px 0px 15px;
+    }
+
+    /* main */
+    article {
+        margin: 0 auto;
+    }
+
+    /* URL Link */
+    a {
+        color: #2f3d69;
+        transition: color 0.3s;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: #99C9FF;
+    }
+
+    .nowverS {
+        font-size: 4vw;
+        margin: 0;
+        padding: 15px 0px 0px;
+    }
+
+    .nowverD {
+        padding: 0px 0px 10px;
+    }
+
+    .turn {
+        display: inline-block;
+    }
+
+    /* -------------------TopFadeInAnimation------------------- */
+    .fadeintop {
+        opacity: 0;
+        animation-name: fadeInFlat;
+        animation-duration: 1.6s;
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes fadeInFlat {
+        0% {
+            opacity: 0;
+            transform: translateY(40px);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    /* -------------------ScrollFadeInAnimation------------------- */
+    .fadein {
+        opacity: 0;
+    }
+
+    .fadeInDown {
+        animation-name: fadeInDown;
+        animation-duration: 1.6s;
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes fadeInDown {
+        0% {
+            opacity: 0;
+            transform: translateY(40px);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    /*  -------------------AccordionMenu------------------ */
+    .version-list .version-name {
+        position: relative;
+        margin: 0;
+        padding: 10px;
+        background-color: #2f3d69;
+        font-size: 7vw;
+        color: #51d6aa;
+        cursor: pointer;
+        border-top: solid 2px #455280;
+    }
+
+    .line-bottom {
+        border-bottom: solid 2px #455280;
+    }
+
+    .version-list .version-name:hover,
+    .version-list .version-name:active,
+    .version-name.open {
+        background-color: #2f3d69;
+        color: #fafafa;
+    }
+
+    .version-list .version-name::before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 10px;
+        transition: all 0.2s ease-in-out;
+        width: 5vw;
+        height: 4px;
+        background: #c22f33;
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg);
+    }
+
+    .version-list .version-name::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 10px;
+        transition: all 0.25s ease-in-out;
+        width: 5vw;
+        height: 4px;
+        background: #c22f33;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    .version-list .version-name.open::before {
+        -webkit-transform: rotate(135deg);
+        transform: rotate(135deg);
+    }
+
+    .version-list .version-name.open::after {
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+
+    .version-detail {
+        background-color: #2a375e;
+        color: #fafafa;
+        padding: 10px;
+    }
+
+    .version-list {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    /* -------------------Settings------------------- */
+    /* copyright */
+    .copyright {
+        font-size: 15px;
+        text-align: center;
+        background-color: #FFFFFF;
+    }
+}

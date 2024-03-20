@@ -1,0 +1,138 @@
+/* body */
+body {
+    background-color: #fcfcfc;
+    font-family: 'Helevetica Neue', 'Helvetica', 'Arial', 'Hiragino Kaku Gothic ProN', 'Meiryo', sans-serif;
+    letter-spacing: 1.25px;
+    -webkit-text-size-adjust: 100%;
+    margin: 0%;
+}
+
+/* section */
+section {
+    color: #f9f9fa;
+    background: #1684a7;
+    margin: 0;
+}
+
+.formbox {
+    padding: 30px 0px 40px;
+    text-align: center;
+}
+
+.formmoji {
+    margin: 0px 15px 0px;
+}
+
+/* Title */
+h1 {
+    font-size: 50px;
+    color: #f9f9fa;
+    text-align: center;
+    padding: 25px 0px 0px;
+    margin: 0;
+}
+
+/* mini-sentence */
+h2 {
+    padding: 0px 0px 20px;
+    font-size: 25px;
+    font-weight: 200;
+    margin: 0;
+    text-align: center;
+}
+
+.turn {
+    display: inline-block;
+}
+
+/* main-sentence */
+p {
+    font-size: 25px;
+    text-align: center;
+    padding: 0px 30px;
+}
+
+/* main */
+article {
+    margin: 0 auto;
+}
+
+/* -------------------Button------------------- */
+.button {
+    margin: 10px 10px;
+    padding: 20px 40px;
+    border-radius: 40px;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #1684a7;
+    border: solid 2px #f9f9fa;
+    background: #f9f9fa;
+    transition: 0.3s;
+    width: 180px;
+}
+
+.button:hover {
+    border: solid 2px #f9f9fa;
+    color: #f9f9fa;
+    background: #1684a7;
+}
+
+.buttonarea {
+    padding: 10px 0px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* -------------------TopFadeInAnimation------------------- */
+.fadeintop {
+    opacity: 0;
+    animation-name: fadeInFlat;
+    animation-duration: 1.8s;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes fadeInFlat {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* -------------------ScrollFadeInAnimation------------------- */
+.fadein {
+    opacity: 0;
+}
+
+.fadeInDown {
+    animation-name: fadeInDown;
+    animation-duration: 1.8s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* -------------------Settings------------------- */
+/* copyright */
+.copyright {
+    font-size: 15px;
+    text-align: center;
+    background-color: #FFFFFF;
+}

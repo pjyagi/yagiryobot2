@@ -1,0 +1,164 @@
+@media screen and (max-width:535px) {
+
+    /* body */
+    body {
+        background-color: #fcfcfc;
+        font-family: 'Helevetica Neue', 'Helvetica', 'Arial', 'Hiragino Kaku Gothic ProN', 'Meiryo', sans-serif;
+        letter-spacing: 1.25px;
+        -webkit-text-size-adjust: 100%;
+        margin: 0%;
+    }
+
+    /* section */
+    .background {
+        background: #f7faff;
+        margin: 0;
+        padding: 20px 5vw;
+    }
+
+    section {
+        color: #023655;
+        background: #f7faff;
+    }
+
+    /* Title */
+    h1 {
+        font-size: 11.3vw;
+        color: #023655;
+        text-align: center;
+        margin: 0;
+        padding: 0px 0px 30px;
+    }
+
+    /* section-title */
+    h2 {
+        font-size: 45px;
+        text-align: center;
+    }
+
+    /* main-sentence */
+    p {
+        font-size: 25px;
+        text-align: center;
+        padding: 0px 30px;
+    }
+
+    /* main */
+    article {
+        margin: 0 auto;
+    }
+
+    /* URL Link */
+    a {
+        color: #023655;
+        transition: color 0.3s;
+    }
+
+    a:hover {
+        color: #0490e0;
+    }
+
+    /* section-title2 */
+    h3 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .turn {
+        display: inline-block;
+    }
+
+    .sns {
+        text-align: center;
+    }
+
+    /* -------------------Settings------------------- */
+    .postarea {
+        background: #fbfdff;
+        padding: 20px 0px 20px;
+    }
+
+    .title {
+        margin: 0;
+        padding: 10px 0px 0px;
+        font-size: 6.5vw;
+        text-align: center;
+        color: #023655;
+    }
+
+    .date {
+        font-size: 4.8vw;
+        color: #335872;
+        margin: 0;
+        text-align: center;
+    }
+
+    .content {
+        text-align: left;
+        font-size: 5vw;
+        color: #023655;
+        margin: 0;
+        padding: 20px 2vw 10px;
+    }
+
+    /* -------------------TopFadeInAnimation------------------- */
+    .fadeintop {
+        opacity: 0;
+        animation-name: fadeInFlat;
+        animation-duration: 1.6s;
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes fadeInFlat {
+        0% {
+            opacity: 0;
+            transform: translateY(40px);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    /* -------------------ScrollFadeInAnimation------------------- */
+    .fadein {
+        opacity: 0;
+    }
+
+    .fadeInDown {
+        animation-name: fadeInDown;
+        animation-duration: 1.6s;
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes fadeInDown {
+        0% {
+            opacity: 0;
+            transform: translateY(40px);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    /* -------------------Settings2------------------- */
+    /* Share */
+    .SharePic {
+        max-width: 110px;
+        height: auto;
+    }
+
+    .share-link {
+        text-decoration: none;
+    }
+
+    /* copyright */
+    .copyright {
+        font-size: 15px;
+        text-align: center;
+        background-color: #FFFFFF;
+    }
+}

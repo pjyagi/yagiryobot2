@@ -3,57 +3,111 @@
 
 <head>
     <meta charset="utf-8">
-    <title>矢木良bot2 Official Site</title>
-    <meta name="viewpoint" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>矢木良bot2公式サイト</title>
     <meta name="description" content="矢木良bot2の公式サイトです">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
     <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/style_sp.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="JavaScript/fadein.js"></script>
     <link rel="icon" type="image/x-icon" href="Images/Favicon.png">
 </head>
 
 <body>
     <header>
-        <h1>矢木良bot2</h1>
+        <h1 class="fadeintop">矢木良bot2</h1>
     </header>
     <main>
         <article ontouchstart="">
-            <section>
-                <h2>About</h2>
-                <p>矢木良bot2は、蒼炎の勇者「矢木良」(やぎちゃん)の名言や迷言をTwitterにつぶやくbotです。<br>毎日21:00につぶやきます。</p>
-            </section>
+            <ul>
+                <li class="about">
+                    <img src="Images/Introduction.png" alt="Introduction" class="IntroPicture fadeintop">
+                    <div class="picturemoji">
+                        <h2 class="fadeintop"><span class="turn">矢木良bot2に</span><span class="turn">ついて</span></h2>
+                        <p class="fadeintop">矢木良bot2は、蒼炎の勇者「矢木良」(やぎちゃん)の名言・迷言をTwitterにつぶやくbotです。</p>
+                        <div class="fadeintop">
+                            <a href="https://twitter.com/YagiYagiLove2" class="Twitter">つぶやきを見る</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="policy">
+                    <div class="letter">
+                        <div class="paddiv">
+                            <h2 class="fadein"><span class="turn">運営方針・</span><span class="turn">利用上の注意</span></h2>
+                            <p class="fadein">矢木良bot2では、稼働継続のために閲覧者の皆様に閲覧上の注意を設けています。</p>
+                            <div class="fadein">
+                                <a href="notice.html" class="pol2">注意を読む</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="updates">
+                    <div class="letter">
+                        <div class="paddiv">
+                            <h2 class="fadein padh2"><span class="turn">アップデート</span><span class="turn">情報</span></h2>
+                            <div class="fadein">
+                                <p class="padp">ツイートbotシステムの継続的な開発を行なっています。</p>
+                            </div>
+                            <div class="fadein">
+                                <a href="version.html" class="allver"><span>バージョン履歴</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="form">
+                    <div class="letter">
+                        <div class="paddiv">
+                            <h2 class="fadein">応募フォーム</h2>
+                            <p class="fadein">つぶやく名言や迷言、ヘッダー画像の応募を受け付けています。</p>
+                            <div class="fadein">
+                                <a href="form.html" class="fofo">応募する</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="Blog">
+                    <div class="letter">
+                        <div class="paddiv">
+                            <h2 class="fadein"><span class="turn">公式</span><span class="turn">ブログ</span></h2>
+                            <p class="fadein"><span class="turn">お知らせや</span><span class="turn">やぎちゃんと</span><span
+                                    class="turn">管理人による</span><span class="turn">ブログを</span><span
+                                    class="turn">掲載。</span></p>
+                            <div class="fadein">
+                                <a href="blog.html" class="readblog">ブログを見る</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="contact">
+                    <div class="letter">
+                        <div class="fadein">
+                            <h2>お問い合わせ</h2>
 
-            <section>
-                <h2>運営方針</h2>
-                <p>アップデートは適宜行います。<br>「利用上の注意」の範囲内で利用していると確認したTwitterアカウントはフォローバックします。</p>
-            </section>
-
-            <section>
-                <h2>利用上の注意</h2>
-                <p>このbotの、岡山県立岡山操山中学校・高等学校のやぎちゃん以外の教員及び他校の生徒・教員への拡散はご遠慮ください(やぎちゃんの教え子を除く)。話が聞こえる範囲で話すなど拡散になり得る行為もお控えください。</p>
-            </section>
-
-            <section>
-                <h2>アップデート情報</h2>
-                <h3>現在のバージョン</h3>
-                <p>version 2.6.0</p>
-                <h3>バージョン履歴</h3>
-                <p>過去のバージョンは<a href="version.html">こちら</a></p>
-            </section>
-
-            <section>
-                <h2>応募フォーム</h2>
-                <p>迷言やヘッダー画像の応募は<a href="form.html">こちら</a></p>
-            </section>
-
-            <section>
-                <h2>Contact Us</h2>
-                <p><a href="https://twitter.com/YagiYagiLove2" target="_blank"><img src="Images/Twitter_Logo.png" height="65" alt="Twitter" class="TwitterLogo"> </a>
-                    <a href="mailto:yagiryobot2.official&#64;gmail.com"><img src="Images/Mail_icon.png" height="60" alt="Gmail" class="MailIcon"> </a>
-                </p>
-            </section>
+                            <p><a href="https://twitter.com/tk_matsu298" target="_blank"><img
+                                        src="Images/Twitter_Logo.png" height="90" alt="Twitter" class="TwitterLogo">
+                                </a>
+                                <a href="mailto:yagiryobot2.official&#64;gmail.com"><img src="Images/Mail_icon.png"
+                                        height="75" alt="Gmail" class="MailIcon"> </a>
+                            </p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
         </article>
     </main>
 
     <footer>
-        <p class="copyright"><small>&copy; 2020 矢木良bot2 All rights reserved.</small></p>
+        <div class="sns">
+            <a href="https://twitter.com/share?url=http://yagiryobot2.starfree.jp/&text=矢木良bot2 - 公式サイト"
+                data-show-count="false">
+                <img src="Images/Twitter_share.png" alt="Share_with_Twitter" class="SharePic">
+            </a>
+            <a href="https://social-plugins.line.me/lineit/share?url=http://yagiryobot2.starfree.jp/">
+                <img src="Images/LINE_share.png" alt="Share_with_LINE" class="SharePic">
+            </a>
+        </div>
+        <p class="copyright"><small>Copyright &copy; 2020-2021 矢木良bot2 All rights reserved.</small></p>
     </footer>
-</body></html>
+</body>
+
+</html>
